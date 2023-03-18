@@ -10,17 +10,16 @@
 
 int main(void)
 {
-        char app[26] = "abcdefghijklmnopqrstuvwxyz";
-                int i;
-
-                for (i = 0; i < 26; i++)
-                {
-                        putchar(tolower(app[i]));
-                }
-		for (i = 0; i < 26; i++)
-		{
-			putchar(toupper(app[i]));
-		}
-			putchar('\n');
-                 return (0);
+char app[26] = "abcdefghijklmnopqrstuvwxyz";
+int i;
+	for (i = 0; i < 26; i++)
+	{
+		putchar(tolower(app[i]));
+	}
+	for (i = 0; i < 26; i++)
+	{
+		putchar(toupper(app[i]));
+	}
+putchar('\n');
+return (0);
 }
