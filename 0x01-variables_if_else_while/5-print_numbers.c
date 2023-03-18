@@ -3,10 +3,10 @@
 #include <time.h>
 
 /**
-* main - numbers of base 10 starting from 0, followed by a new line
+* main - numbers of base 10 starting followed by a new line
 *
 * Description: using the main function
-* this program prints "numbers of base 10 starting from 0, followed by a new line"
+* this program prints "numbers of base 10 followed by a new line"
 * Return: 0
 */
 int main(void)
