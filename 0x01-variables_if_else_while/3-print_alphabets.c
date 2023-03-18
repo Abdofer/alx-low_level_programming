@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 /**
  * main -  alphABET
@@ -9,13 +10,17 @@
 
 int main(void)
 {
-        char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        char app[26] = "abcdefghijklmnopqrstuvwxyz";
                 int i;
 
-                for (i = 0; i < 52; i++)
+                for (i = 0; i < 26; i++)
                 {
-                        putchar(alp[i]);
+                        putchar(tolower(app[i]));
                 }
-                 putchar('\n');
+		for (i = 0; i < 26; i++)
+		{
+			putchar(toupper(app[i]));
+		}
+			putchar('\n');
                  return (0);
 }
