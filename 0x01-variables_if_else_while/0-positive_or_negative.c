@@ -1,15 +1,20 @@
-#include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
-/* more headers goes there */
+#include<stdio.h>
+#include <time.h>
 
-/* betty style doc for function main goes there */
+/**
+* main - print if the number is postive, zero, or negative
+*
+* Description: using the main function
+* this program prints "Positive anything is better than negative nothing"
+* Return: 0
+*/
 int main(void)
 {
 	int n;
 
 	srand(time(0));
-	n= rand() - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
