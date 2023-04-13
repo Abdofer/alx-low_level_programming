@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- *malloc_checked - Allocates memory using malloc
+ *malloc_checked - Function allocates memory using malloc.
  *@b: integer
  *Return: Pointer to allocated memory
  */

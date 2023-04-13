@@ -3,11 +3,11 @@
 #include <stdlib.h>
 
 /**
- * string_nconcat - a function concatenates string.
- * @s1: destination for concatenation.
- * @s2: source of string.
- * @n: int type size of byte.
- * Return: pointer new memory allocated.
+ * string_nconcat - a function that concatenates string with n bytes.
+ * @s1: destination for concatenation
+ * @s2: source of string
+ * @n: int type for size of byte
+ * Return: pointer to new memory allocated
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
